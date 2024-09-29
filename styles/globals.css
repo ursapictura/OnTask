@@ -18,5 +18,14 @@ a {
 }
 
 body {
-  background-color: #88effd;
+  background-color: #fc912d93;
 }
+
+.form-container, .table-container {
+  margin: 5vh auto 10vh auto;
+  max-width: 75vh;
+}
+
+ .task-title {
+  text-align: center;
+ }
