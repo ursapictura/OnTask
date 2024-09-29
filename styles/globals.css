@@ -18,7 +18,7 @@ a {
 }
 
 body {
-  background-color: #fc912d93;
+  background-color: #ffffff;
 }
 
 .form-container, .table-container {
@@ -28,4 +28,25 @@ body {
 
  .task-title {
   text-align: center;
+  color: #00bbf9 ;
+
  }
+
+ .login-btn {
+  background: #9b5de5;
+   border: 2px solid white;
+ }
+
+ .navBar {
+  background-color: #f15bb5 !important;
+ }
+
+ .table-hover tbody tr:hover td {
+  background: #00f5d4;
+  color: white;
+  font-weight: 600;
+}
+
+.table {
+  --bs-table-striped-bg: #fee440 !important;
+}

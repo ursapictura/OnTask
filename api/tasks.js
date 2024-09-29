@@ -46,7 +46,7 @@ const updateTask = (payload) => new Promise((resolve, reject) => {
 });
 
 const deleteTask = (firebaseKey) => new Promise((resolve, reject) => {
-  fetch(`${dbUrl}/tasks/${firebaseKey}`, {
+  fetch(`${dbUrl}/tasks/${firebaseKey}.json`, {
     method: 'DELETE',
     headers: {
       'Content-Type': 'applicaiton/json',

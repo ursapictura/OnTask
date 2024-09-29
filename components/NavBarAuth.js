@@ -16,7 +16,7 @@ export default function NavBarAuth() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Button variant="danger" onClick={signOut}>Sign Out</Button>
+            <Button style={{ background: '#9b5de5', border: '2px solid white' }} onClick={signOut}>Sign Out</Button>
           </Nav>
         </Navbar.Collapse>
       </Container>

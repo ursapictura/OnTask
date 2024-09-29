@@ -37,7 +37,7 @@ export default function TaskRow({ taskObj, onUpdate }) {
         onChange={handleCheckboxChange}
       />
       </td>
-      <td style={{ textAlign: 'center' }}><Button onClick={onDelete} variant="outline-danger">Delete</Button></td>
+      <td style={{ textAlign: 'center' }}><Button onClick={onDelete} style={{ background: '#9b5de5', border: '2px solid white' }}>Delete</Button></td>
     </tr>
   );
 }

@@ -13,9 +13,9 @@ function Signin() {
         margin: '0 auto',
       }}
     >
-      <h1>Hi there!</h1>
-      <p>Click the button below to login!</p>
-      <Button type="button" size="lg" className="copy-btn" onClick={signIn}>
+      <h1 style={{ color: 'rgb(204, 74, 27)' }}>Welcome to finally staying on task!</h1>
+      <h5 style={{ color: 'rgb(204, 74, 27)' }}>Click the button below to login!</h5>
+      <Button type="button" className="login-btn" onClick={signIn}>
         Sign In
       </Button>
     </div>

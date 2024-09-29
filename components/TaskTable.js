@@ -5,7 +5,7 @@ import TaskRow from './TaskRow';
 export default function TaskTable({ tasksArray, onUpdate }) {
   return (
     <div>
-      <Table className="task-table">
+      <Table striped bordered hover className="task-table">
         <thead>
           <tr>
             <th>Task</th>
